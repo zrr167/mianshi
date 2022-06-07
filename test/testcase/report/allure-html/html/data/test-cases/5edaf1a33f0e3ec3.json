@@ -1,0 +1,149 @@
+{
+  "uid" : "5edaf1a33f0e3ec3",
+  "name" : "test_cal0[rucan01]",
+  "fullName" : "testcase.test_cal#test_cal0",
+  "historyId" : "b2126faacbe02d6217b78c4e9a5b1ed9",
+  "time" : {
+    "start" : 1654598513064,
+    "stop" : 1654598513064,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1654598512987,
+      "stop" : 1654598513057,
+      "duration" : 70
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "rucan0",
+    "time" : {
+      "start" : 1654598513064,
+      "stop" : 1654598513064,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "ready_test",
+    "time" : {
+      "start" : 1654598513058,
+      "stop" : 1654598513058,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "ready_case",
+    "time" : {
+      "start" : 1654598513064,
+      "stop" : 1654598513064,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "ready_test::0",
+    "time" : {
+      "start" : 1654598513084,
+      "stop" : 1654598513084,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "ready_case::0",
+    "time" : {
+      "start" : 1654598513064,
+      "stop" : 1654598513065,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "P0"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_cal"
+  }, {
+    "name" : "host",
+    "value" : "zrr"
+  }, {
+    "name" : "thread",
+    "value" : "28640-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_cal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "rucan0",
+    "value" : "{'data': {'a': 1, 'b': 2, 'c': 5.0}, 'expect': {'result': '数据类型错误'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "P0" ]
+  },
+  "source" : "5edaf1a33f0e3ec3.json",
+  "parameterValues" : [ "{'data': {'a': 1, 'b': 2, 'c': 5.0}, 'expect': {'result': '数据类型错误'}}" ]
+}
